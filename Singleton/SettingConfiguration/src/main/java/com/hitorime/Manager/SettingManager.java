@@ -1,4 +1,4 @@
-package Manager;
+package com.hitorime.Manager;
 
 import com.google.gson.Gson;
 import com.hitorime.Model.Setting;

@@ -1,6 +1,6 @@
 package com.hitorime.Controller;
 
-import Manager.SettingManager;
+import com.hitorime.Manager.SettingManager;
 import com.hitorime.Model.Setting;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
