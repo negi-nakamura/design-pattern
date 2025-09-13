@@ -1,0 +1,42 @@
+.root {
+
+}
+
+.setting {
+
+}
+
+.setting_container {
+    -fx-background-color: #eee;
+}
+
+.light_mode_btn {
+
+}
+
+.notification_enabled_btn {
+
+}
+
+.auto_save_btn {
+
+}
+
+.debug_mode_btn {
+
+}
+
+.location_enabled_btn {
+}
+
+.auto_completion_btn {
+
+}
+
+.reset_btn {
+
+}
+
+.save_setting_btn {
+
+}
