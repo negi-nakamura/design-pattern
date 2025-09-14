@@ -4,7 +4,7 @@ public class Singleton {
 
      //[step 1] declare a private static variable that holds a single class instance
      private static Singleton instance;
-     private String title = "Hello, World!";
+     private String title = "Hello, Mars!";
 
      //[step 2] declare a private constructor to prevent external code from creating a new instance
      private Singleton() {
@@ -22,7 +22,6 @@ public class Singleton {
          return title;
      }
 
-     public void setTitle(String title) {
-         this.title = title;
-     }
+     public void setTitle(String title) { this.title = title; }
+
 }

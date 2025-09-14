@@ -1,6 +1,6 @@
 package com.hitorime.Controller;
 
-import com.hitorime.Manager.SettingManager;
+import com.hitorime.Singleton.SettingManager;
 import com.hitorime.Model.Setting;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 
 import java.io.File;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -23,8 +24,9 @@ public class SettingController implements Initializable {
     @FXML
     Button reset_btn, save_setting_btn;
 
-    public SettingController() {
-        file = new File("src/main/resources/json/setting.json");
+    public SettingController() throws URISyntaxException {
+        URL jsonResource = getClass().getClassLoader().getResource("json/setting.json");
+        file = new File(jsonResource.toURI());
         initializeSetting(file);
     }
 
