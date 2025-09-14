@@ -1,0 +1,31 @@
+.root {
+
+}
+
+.cookie_clicker {
+
+}
+
+.cookie_clicker_container {
+    -fx-background-color: #eee;
+}
+
+.cookie_clicker_title_label {
+
+}
+
+.cookie_clicker_counter_label_container {
+    -fx-background-color: #ddd;
+}
+
+.cookie_clicker_counter_label {
+
+}
+
+.cookie_image {
+    -fx-cursor: hand;
+}
+
+.cookie_image:pressed {
+    -fx-opacity: 0.75;
+}
